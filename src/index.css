@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #343541;
+}
+
+.sidebar{
+  background-color: #202123;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 250px; /* Added width limit for the sidebar */
+  padding-top: 20px; /* Added padding to the top of the contents */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+text{
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
